@@ -4,7 +4,9 @@ ion-icon {
   color: rgb(0, 0, 0);
 }
 #home{
-  margin: aut;
+  position: relative;
+  bottom: 400px;
+  left: 267px
 }
 :root{
     --bigScreenColor: #dcd1d1;
