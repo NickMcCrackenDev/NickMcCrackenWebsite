@@ -1,5 +1,27 @@
+@keyframes rotate {
+from{
+  transform: rotate(0deg);
+}
+to{
+  transform: rotate(360deg);
+}
+}
 ion-icon {
     font-size: 130px;
     color: rgb(0, 204, 255);
   }
-  
+  .calcBtn{
+    position: relative;
+   
+  }
+  .homeImage{
+    position: fixed;
+    
+    
+    object-fit:fill;
+    
+    animation-name: rotate;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+  }

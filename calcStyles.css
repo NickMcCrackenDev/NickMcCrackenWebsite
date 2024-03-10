@@ -1,7 +1,7 @@
 
 ion-icon {
   font-size: 120px;
-  color: rgb(0, 0, 0);
+  color: rgb(60, 38, 38);
 }
 #home{
   position: relative;
@@ -9,7 +9,7 @@ ion-icon {
   left: 267px
 }
 :root{
-    --bigScreenColor: #dcd1d1;
+    --bigScreenColor: #898282;
     --backgroundColor: #6e6c6c;
     --screenColor: #c1c0c1;
     --buttonColor: #fdb306;
